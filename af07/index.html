@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AF7 - Becas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="barra-superior">
+        <div class="interior">
+            <a class="marca" href="#">Programación Web · AF7</a>
+            <nav>
+                <ul class="menu" id="menu"></ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenido">
+        <h1>Becas</h1>
+        <p class="subtitulo">Diego Damián Camargo Ortiz 2150020 Ingeniería en Tecnologías de Software</p>
+
+        <figure class="imagen">
+            <img src="banner.jpg">
+        </figure>
+
+        <div class="bloque">
+            <p>Estas son 4 becas a las que puedo postularme como estudiante de licenciatura.</p>
+            <p>Para saber los requisitos y cómo se solicita cada una, presionar "Ver más" en cada tarjeta.</p>
+        </div>
+
+        <div class="filtros">
+            <button type="button" class="activo" data-filtro="todas">Todas</button>
+            <button type="button" data-filtro="vigentes">Vigentes</button>
+            <button type="button" data-filtro="cerradas">Cerradas</button>
+        </div>
+
+        <section id="becas" class="lista"></section>
+    </main>
+
+    <footer class="footer">
+        <div class="interior">
+            <p><a href="#">Volver al inicio</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
