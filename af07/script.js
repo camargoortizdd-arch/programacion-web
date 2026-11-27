@@ -1,4 +1,4 @@
-var directorio = "https://dvdatogro-123.github.io/PIA_PROGWEB_EQ1/";
+var directorio = "https://dvdatogro-123.github.io/AF03-PIA/";
 
 var becas = [
     {

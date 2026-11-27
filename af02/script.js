@@ -1,9 +1,9 @@
-var directorio = "https://dvdatogro-123.github.io/PIA_PROGWEB_EQ1/";
+var directorio = "https://dvdatogro-123.github.io/AF03-PIA/";
 var archivoXml = "intercambio_fime_2150020.xml";
 var avisado = false;
 
 var xmlRespaldo = `<?xml version="1.0" encoding="UTF-8"?>
-<intercambio facultad="FIME" institucion="UANL" carrera="Ingeniería en Tecnologías de Software" estudiante="Diego Damián Camargo Ortiz" matricula="2150020" directorio="https://dvdatogro-123.github.io/PIA_PROGWEB_EQ1/">
+<intercambio facultad="FIME" institucion="UANL" carrera="Ingeniería en Tecnologías de Software" estudiante="Diego Damián Camargo Ortiz" matricula="2150020" directorio="https://dvdatogro-123.github.io/AF03-PIA/">
     <universidad id="1" tipo="nacional" modalidad="presencial" sitio="https://www.unam.mx">
         <nombre siglas="UNAM">Universidad Nacional Autónoma de México</nombre>
         <pais codigo="MX">México</pais>
