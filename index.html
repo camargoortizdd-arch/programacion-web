@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AF2 - Intercambio académico</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌍%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+    <header class="barra-superior">
+        <div class="interior">
+            <a class="marca" href="#">Programación Web · AF2</a>
+            <nav>
+                <ul class="menu" id="menu"></ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenido">
+        <h1>🌍 Intercambio académico FIME</h1>
+        <p class="subtitulo">Diego Damián Camargo Ortiz 2150020 Ingeniería en Tecnologías de Software</p>
+
+        <div class="bloque datos" id="datos"></div>
+
+        <div class="bloque">
+            <p>Esta página lee el archivo XML de intercambio y muestra sus datos en tarjetas.</p>
+            <p>Para saber más de cada universidad, presionar "Ver más" en cada tarjeta.</p>
+        </div>
+
+        <section id="universidades" class="lista"></section>
+
+        <div class="bloque">
+            <h3>📄 Código XML</h3>
+            <pre id="codigo"></pre>
+            <p><a href="intercambio_fime_2150020.xml" target="_blank">🔗 Abrir el archivo XML</a></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="interior">
+            <p><a href="https://dvdatogro-123.github.io/AF03-PIA/">🏠 Ir al directorio principal</a></p>
+            <p><a href="#">⬆️ Volver al inicio</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

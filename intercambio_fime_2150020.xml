@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intercambio facultad="FIME" institucion="UANL" carrera="Ingeniería en Tecnologías de Software" estudiante="Diego Damián Camargo Ortiz" matricula="2150020" directorio="https://dvdatogro-123.github.io/AF03-PIA/">
+    <universidad id="1" tipo="nacional" modalidad="presencial" sitio="https://www.unam.mx">
+        <nombre siglas="UNAM">Universidad Nacional Autónoma de México</nombre>
+        <pais codigo="MX">México</pais>
+        <ciudad estado="Ciudad de México">Ciudad de México</ciudad>
+        <programa tipo="Movilidad académica nacional">Estancia académica de un semestre en una facultad de ingeniería para cursar materias afines a Ingeniería en Tecnologías de Software, con reconocimiento de créditos en la FIME de la UANL</programa>
+        <duracion periodo="enero-junio o agosto-diciembre">1 semestre</duracion>
+        <idioma>Español</idioma>
+    </universidad>
+    <universidad id="2" tipo="internacional" modalidad="presencial" sitio="https://www.upm.es">
+        <nombre siglas="UPM">Universidad Politécnica de Madrid</nombre>
+        <pais codigo="ES">España</pais>
+        <ciudad comunidad="Comunidad de Madrid">Madrid</ciudad>
+        <programa tipo="Movilidad académica internacional">Estancia académica en el extranjero con reconocimiento de créditos, apoyada por la Beca de Movilidad Académica Internacional de la Fundación UANL, para cursar materias de la carrera de Ingeniería en Tecnologías de Software</programa>
+        <duracion periodo="enero-junio o agosto-diciembre">Hasta 6 meses</duracion>
+        <idioma>Español</idioma>
+    </universidad>
+</intercambio>
